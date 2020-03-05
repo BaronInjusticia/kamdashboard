@@ -8,6 +8,8 @@ import {
   //*Top
   TablaGeneral,
   GraficaBasica,
+  TablaEspecifica,
+  GraficaEspecifica,
   //*Cards1
   EquiposSinGarantia,
   CapacidadValidacionGarantias,
@@ -87,7 +89,7 @@ const DashboardKam = () => {
           xl={9}
           xs={12}
         >
-          <TablaGeneral />
+          <TablaEspecifica />
         </Grid>
         <Grid
           item
@@ -96,7 +98,7 @@ const DashboardKam = () => {
           xl={3}
           xs={12}
         >
-          <GraficaBasica /> 
+          <GraficaEspecifica /> 
         </Grid>
         <Grid
           item

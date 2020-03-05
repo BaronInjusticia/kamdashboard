@@ -7,7 +7,6 @@ import {
   Card,
   CardHeader,
   CardContent,
-  CardActions,
   Divider
 } from '@material-ui/core';
 
@@ -24,7 +23,7 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-const TablaGeneral = props => {
+const TablaEspecifica = props => {
   const { className, ...rest } = props;
 
   const classes = useStyles();
@@ -35,7 +34,7 @@ const TablaGeneral = props => {
       className={clsx(classes.root, className)}
     >
       <CardHeader
-        title="Competencias Basicas"
+        title="Competencias Especificas"
       />
       <Divider />
       <CardContent>
@@ -47,14 +46,12 @@ const TablaGeneral = props => {
         </div>
       </CardContent>
       <Divider />
-      <CardActions className={classes.actions}>
-      </CardActions>
     </Card>
   );
 };
 
-TablaGeneral.propTypes = {
+TablaEspecifica.propTypes = {
   className: PropTypes.string
 };
 
-export default TablaGeneral;
+export default TablaEspecifica;

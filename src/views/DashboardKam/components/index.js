@@ -1,6 +1,7 @@
 export { default as GraficaBasica } from './GraficaBasica';
 export { default as TablaGeneral } from './TablaGeneral';
-
+export {default as TablaEspecifica} from './TablaEspecifica'
+export {default as GraficaEspecifica} from './GraficaEspecifica'
 
 //*Nivel 1 Cards
 export { default as EquiposSinGarantia } from './Competencias/Nivel1Cards/EquiposSinGarantia';

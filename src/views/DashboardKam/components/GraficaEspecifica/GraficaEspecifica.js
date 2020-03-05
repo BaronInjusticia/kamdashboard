@@ -7,10 +7,14 @@ import {
   Card,
   CardHeader,
   CardContent,
+  IconButton,
   Divider,
   Typography
 } from '@material-ui/core';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import LaptopMacIcon from '@material-ui/icons/LaptopMac';
+import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
+import RefreshIcon from '@material-ui/icons/Refresh';
+import TabletMacIcon from '@material-ui/icons/TabletMac';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -34,7 +38,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const GraficaBasica = props => {
+const GraficaEspecifica = props => {
   const { className, ...rest } = props;
 
   const classes = useStyles();
@@ -83,19 +87,19 @@ const GraficaBasica = props => {
     {
       title: 'Esmeralda',
       value: '63',
-      icon: <AccountCircleIcon />,
+      icon: <LaptopMacIcon />,
       color: theme.palette.primary.main
     },
     {
       title: 'Jimena',
       value: '15',
-      icon: <AccountCircleIcon />,
+      icon: <TabletMacIcon />,
       color: theme.palette.error.main
     },
     {
       title: 'Mariana',
       value: '23',
-      icon: <AccountCircleIcon />,
+      icon: <PhoneIphoneIcon />,
       color: theme.palette.warning.main
     }
   ];
@@ -106,7 +110,12 @@ const GraficaBasica = props => {
       className={clsx(classes.root, className)}
     >
       <CardHeader
-        title="Players Progreso Basica"
+        action={
+          <IconButton size="small">
+            <RefreshIcon />
+          </IconButton>
+        }
+        title="Players Progreso Especificas"
       />
       <Divider />
       <CardContent>
@@ -138,8 +147,8 @@ const GraficaBasica = props => {
   );
 };
 
-GraficaBasica.propTypes = {
+GraficaEspecifica.propTypes = {
   className: PropTypes.string
 };
 
-export default GraficaBasica;
+export default GraficaEspecifica;
