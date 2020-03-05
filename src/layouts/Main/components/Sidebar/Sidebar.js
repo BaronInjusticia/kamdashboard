@@ -47,22 +47,22 @@ const Sidebar = props => {
     },
     {
       title: 'Dashboard NOC',
-      href: '/users',
+      href: '/dashboard',
       icon: <PeopleIcon />
     },
     {
       title: 'KAM',
-      href: '/products',
+      href: '/kam',
       icon: <ShoppingBasketIcon />
     },
     {
       title: 'NOC',
-      href: '/sign-in',
+      href: '/kam',
       icon: <LockOpenIcon />
     },
     {
       title: 'Capacitaciones',
-      href: '/typography',
+      href: '/dashboard',
       icon: <TextFieldsIcon />
     },
   ];

@@ -6,7 +6,7 @@ import { Main as MainLayout, Minimal as MinimalLayout } from './layouts';
 
 import {
   DashboardKam as DashboardKamView,
-  ProductList as ProductListView,
+  Kam as KamView,
   UserList as UserListView,
   Typography as TypographyView,
   Icons as IconsView,
@@ -38,10 +38,10 @@ const Routes = () => {
         path="/users"
       />
       <RouteWithLayout
-        component={ProductListView}
+        component={KamView}
         exact
         layout={MainLayout}
-        path="/products"
+        path="/kam"
       />
       <RouteWithLayout
         component={TypographyView}
