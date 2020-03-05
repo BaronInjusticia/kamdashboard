@@ -43,7 +43,7 @@ const GraficaBasica = props => {
   const data = {
     datasets: [
       {
-        data: [63, 15, 22],
+        data: [94, 75, 83],
         backgroundColor: [
           theme.palette.primary.main,
           theme.palette.error.main,
@@ -82,19 +82,19 @@ const GraficaBasica = props => {
   const players = [
     {
       title: 'Esmeralda',
-      value: '63',
+      value: '94',
       icon: <AccountCircleIcon />,
       color: theme.palette.primary.main
     },
     {
       title: 'Jimena',
-      value: '15',
+      value: '75',
       icon: <AccountCircleIcon />,
       color: theme.palette.error.main
     },
     {
       title: 'Mariana',
-      value: '23',
+      value: '83',
       icon: <AccountCircleIcon />,
       color: theme.palette.warning.main
     }

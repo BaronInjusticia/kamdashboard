@@ -62,7 +62,7 @@ const Facturacion4PT = props => {
             >
                 ENTENDMIENTO DE FACTURACION 4PT
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">76%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -72,7 +72,7 @@ const Facturacion4PT = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={76}
           variant="determinate"
         />
       </CardContent>

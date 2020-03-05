@@ -62,7 +62,7 @@ const ManejoGoogleSheetsDocs = props => {
             >
               MANEJO DE GOOGLE SHEETS Y DOCS
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">66%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -72,7 +72,7 @@ const ManejoGoogleSheetsDocs = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={66}
           variant="determinate"
         />
       </CardContent>

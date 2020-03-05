@@ -63,7 +63,7 @@ const ConocimientoFacturacion = props => {
             >
               CONOCIMIENTO DE DETALLES DE FACTURACION
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">66%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -73,7 +73,7 @@ const ConocimientoFacturacion = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={66}
           variant="determinate"
         />
       </CardContent>

@@ -63,7 +63,7 @@ const EquiposSinGarantia = props => {
             >
               CAPACIDAD DE COORDINAR VALIDACION DE GARANTIAS
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">33%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -73,7 +73,7 @@ const EquiposSinGarantia = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={33}
           variant="determinate"
         />
       </CardContent>

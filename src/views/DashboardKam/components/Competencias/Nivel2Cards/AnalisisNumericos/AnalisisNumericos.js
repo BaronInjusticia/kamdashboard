@@ -62,7 +62,7 @@ const AnalisisNumericos = props => {
             >
               CAPACIDAD DE ANALISIS NUMERICOS
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">82%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -72,7 +72,7 @@ const AnalisisNumericos = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={82}
           variant="determinate"
         />
       </CardContent>

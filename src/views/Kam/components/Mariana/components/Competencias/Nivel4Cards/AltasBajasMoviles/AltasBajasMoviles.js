@@ -63,7 +63,7 @@ const AltasBajasMoviles = props => {
             >
               CAPACIDAD PARA REALIZAR ALTAS, BAJAS Y CAMBIOS DE SERVICIOS MOVILES 
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">75%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -73,7 +73,7 @@ const AltasBajasMoviles = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={75}
           variant="determinate"
         />
       </CardContent>

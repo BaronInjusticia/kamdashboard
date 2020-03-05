@@ -6,7 +6,7 @@ export const data = {
     {
       label: 'Porcentaje',
       backgroundColor: palette.primary.main,
-      data: [10,20,30,40,100]
+      data: [83,69,73,84,72]
     }
   ]
 };

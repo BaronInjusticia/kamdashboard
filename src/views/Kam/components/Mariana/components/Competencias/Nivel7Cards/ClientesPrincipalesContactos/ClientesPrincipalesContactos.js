@@ -63,7 +63,7 @@ const ClientesPrincipalesContactos = props => {
             >
                 CONOCER CLIENTES PRINCIPALES Y CONTACTOS
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">100%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -73,7 +73,7 @@ const ClientesPrincipalesContactos = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={100}
           variant="determinate"
         />
       </CardContent>

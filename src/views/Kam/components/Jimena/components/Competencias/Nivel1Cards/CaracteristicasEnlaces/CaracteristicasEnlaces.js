@@ -63,7 +63,7 @@ const CaracteristicasEnlaces = props => {
             >
               CONOCIMIENTOS SOBRE TIPOS Y CARACTERISTICAS DE ENLACES
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">70%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -73,7 +73,7 @@ const CaracteristicasEnlaces = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={70}
           variant="determinate"
         />
       </CardContent>

@@ -62,7 +62,7 @@ const UsoExcel = props => {
             >
                 MANEJO DE PROVEEDORES ACTUALES Y CONTACTOS
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">60%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -72,7 +72,7 @@ const UsoExcel = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={60}
           variant="determinate"
         />
       </CardContent>

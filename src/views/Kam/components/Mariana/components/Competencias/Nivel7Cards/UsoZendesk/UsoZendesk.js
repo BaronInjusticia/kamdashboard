@@ -63,7 +63,7 @@ const UsoZendesk = props => {
             >
                 USO DE ZENDESK
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">61%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -73,7 +73,7 @@ const UsoZendesk = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={61}
           variant="determinate"
         />
       </CardContent>

@@ -62,7 +62,7 @@ const ClientesTmaaS = props => {
             >
               MANEJO DE CLIENTES TmaaS
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">50%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -72,7 +72,7 @@ const ClientesTmaaS = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={50}
           variant="determinate"
         />
       </CardContent>

@@ -62,7 +62,7 @@ const AnalisisContratosCarriers = props => {
             >
               ANALISIS CONTRATOS CON CARRIERS
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">83%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -72,7 +72,7 @@ const AnalisisContratosCarriers = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={83}
           variant="determinate"
         />
       </CardContent>

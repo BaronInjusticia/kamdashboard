@@ -63,7 +63,7 @@ const CompraCotizacionEquipos = props => {
             >
                 CAPACIDAD DE REALIZAR COMPRAS Y COTIZACION DE EQUIPOS
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="h3">86%</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
@@ -73,7 +73,7 @@ const CompraCotizacionEquipos = props => {
         </Grid>
         <LinearProgress
           className={classes.progress}
-          value={75.5}
+          value={86}
           variant="determinate"
         />
       </CardContent>
