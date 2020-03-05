@@ -1,7 +1,5 @@
-
 export { default as TablaGeneral } from './TablaGeneral';
 export {default as TablaEspecifica} from './TablaEspecifica'
-
 
 //*Nivel 1 Cards
 export { default as EquiposSinGarantia } from './Competencias/Nivel1Cards/EquiposSinGarantia';
